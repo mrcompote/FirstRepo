@@ -1,0 +1,83 @@
+
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+
+body {
+background-image: url("img/back.png");
+color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  background-color: #ffffff;
+  height: 100%;
+}
+
+
+
+.nav-header {
+display: block;
+text-align: center;
+background-repeat: no-repeat;
+background-image: url("img/logo.png");
+background-color: #999;
+padding: 0px 15px;
+font-size: 30px;
+font-weight: bold;
+line-height: 100px;
+color: black;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.navbar .nav > li > a {
+float: none;
+padding: 10px 15px 10px;
+color: #999;
+text-decoration: none;
+}
+
+.container{
+  height: 70%;
+}
+
+
+.hero-unit {
+padding: 60px;
+margin-bottom: 30px;
+font-size: 14px;
+font-weight: 200;
+line-height: 30px;
+color: inherit;
+background-color: rgba(255,255,255,0.2);
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+.modal-footer {
+text-align: center;
+background-color: #999;
+border-top: 2px solid #555;
+-webkit-border-radius: 0 0 6px 6px;
+-moz-border-radius: 0 0 6px 6px;
+border-radius: 0 0 8px 8px;
+height: 20px;
+margin-top: 94px;
+}
+
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: relative;
+
+}
