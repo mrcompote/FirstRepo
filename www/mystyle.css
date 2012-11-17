@@ -1,0 +1,42 @@
+body{
+  background-image: url("back.jpg");
+  height: 100%;
+}
+  
+.hero-unit {
+margin-top:20px;
+font-size: 14px;
+background-color: rgba(255,255,255,0.75);
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+
+.navbar-fixed-top{
+position:relative;
+}
+
+.nav-header {
+text-align: center;
+background-repeat: no-repeat;
+background-image: url("logo.png");
+background-color: #999;
+padding: 0px;
+font-size: 30px;
+line-height: 100px;
+color: black;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.btn btn-primary btn-large
+{
+color:@red;
+}
+
+footer {
+padding-top: 30px;
+font-family:arial;
+font-size: 12pt;
+font-weight: 300;
+color: rgba(255,255,255,0.75);
+}
